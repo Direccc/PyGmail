@@ -5,7 +5,7 @@ from gmail_api import init_gmail_service, send_email
 client_file = "client_secret.json"
 service = init_gmail_service(client_file)
 
-to_address = 'aaronbalolong49@gmail.com'
+to_address = 'email'
 email_subject = 'Gmail Crash Course Test Email'
 email_body = "Nice Try."
 attachment_dir = Path('./attachments')

@@ -7,7 +7,7 @@ service = init_gmail_service(client_file)
 
 to_address = 'aaronbalolong49@gmail.com'
 email_subject = 'Gmail Crash Course Test Email'
-email_body = "This is a test email sent using the Gmail API."
+email_body = "Nice Try."
 attachment_dir = Path('./attachments')
 attachment_files = list(attachment_dir.glob('*'))
 
